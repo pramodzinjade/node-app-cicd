@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.27.73'
-        SSH_CREDENTIAL = 'node-key'
+        SERVER_IP      = '172.31.27.73' // your deploy server  id
+        SSH_CREDENTIAL = 'node-key'     //genkins credential id
         REPO_URL       = 'https://github.com/pramodzinjade/node-app-cicd.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
